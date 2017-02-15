@@ -7,7 +7,7 @@ var Pizza = Backbone.Model.extend({
 
 var PizzaList = Backbone.Collection.extend({
     model: Pizza,
-    url: 'http://tiny-lasagna-server.herokuapp.com/collections/pizza'
+    url: 'https://tiny-lasagna-server.herokuapp.com/collections/pizza'
 });
 
 module.exports = {
